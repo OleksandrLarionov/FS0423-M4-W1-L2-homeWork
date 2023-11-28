@@ -9,8 +9,6 @@ public class Main2 {
         int numero = Integer.parseInt(scanner.nextLine());
         numeroIntero(numero);
         scanner.close();
-
-
     }
 
     public static void numeroIntero(int numero) {
