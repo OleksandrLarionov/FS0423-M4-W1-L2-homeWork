@@ -9,8 +9,8 @@ public class Main {
         String parola = scanner.nextLine();
         System.out.println(stringaDispari(parola));
         System.out.println("Inserisci un anno");
-        String year = scanner.nextLine();
-        System.out.println(stringaDispari(year));
+        int year = Integer.parseInt(scanner.nextLine());
+        System.out.println(annoBisestile(year));
     }
 
     public static Boolean stringaDispari(String parolaDaInserir) {

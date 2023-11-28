@@ -13,7 +13,7 @@ public class Main3 {
                 break;
             }
             String[] lettere = stringaInserita.split("");
-            String finalResult = String.join(", ", lettere);
+            String finalResult = String.join(",", lettere);
             System.out.println("Caratteri separati da virgola: " + finalResult);
         }
         scanner.close();
